@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{ACC4588C-A89A-4CBC-803E-05F876973318}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Test</RootNamespace>
+    <AssemblyName>Test</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <projectdefaultrepository>0b72a1ad-d48d-4266-9e4e-7c6863a4ec44</projectdefaultrepository>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Qt, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>9c3095f8-1731-4220-a1ba-e1da2eb4c79a</id>
+    </Compile>
+    <Compile Include="Fight.cs">
+      <BoundTo>a39e7058-401e-4429-86a4-1419e16849d5</BoundTo>
+      <DependentUpon>Fight.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>649615f4-5a5e-4037-a719-d4bcffecc87f</id>
+    </Compile>
+    <Compile Include="Fight.UserCode.cs">
+      <BoundTo>a39e7058-401e-4429-86a4-1419e16849d5</BoundTo>
+      <DependentUpon>Fight.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5352e2a4-7abb-4d01-a68a-d6e547cbe6a8</id>
+    </Compile>
+    <Compile Include="Func.cs">
+      <id>51d4ab76-9c91-423e-89ce-b612f35ddd16</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>ba8c7914-8b41-4b18-9e9d-06f99a48992e</id>
+    </Compile>
+    <Compile Include="Launch.cs">
+      <BoundTo>a662c205-79df-466a-8653-7115258d5dba</BoundTo>
+      <DependentUpon>Launch.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a33fd960-7d65-4d55-aa94-10e7f202dd97</id>
+    </Compile>
+    <Compile Include="Launch.UserCode.cs">
+      <BoundTo>a662c205-79df-466a-8653-7115258d5dba</BoundTo>
+      <DependentUpon>Launch.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f6c7b8f8-8086-4fbd-a44a-bf6d4c9f8782</id>
+    </Compile>
+    <Compile Include="Resource1.Designer.cs">
+      <BoundTo>e45154e0-0be6-4b6b-bc1e-b2679641d19d</BoundTo>
+      <DependentUpon>Resource1.resx</DependentUpon>
+      <id>b41e53fd-196e-4934-98af-c2cefb86f3aa</id>
+    </Compile>
+    <Compile Include="TestRepository.cs">
+      <DependentUpon>TestRepository.rxrep</DependentUpon>
+      <id>34f2b0d1-4341-4687-add0-c6b98d3a3928</id>
+      <BoundTo>0b72a1ad-d48d-4266-9e4e-7c6863a4ec44</BoundTo>
+      <RepositoryCode>true</RepositoryCode>
+    </Compile>
+    <None Include="app.config">
+      <id>479eee11-e08f-4b51-900e-74710b8798a8</id>
+    </None>
+    <None Include="Fight.rxrec">
+      <BoundTo>0b72a1ad-d48d-4266-9e4e-7c6863a4ec44</BoundTo>
+      <id>a39e7058-401e-4429-86a4-1419e16849d5</id>
+      <recordtableid>99ffaff2-731f-4feb-bc46-ec66ab89ecd3</recordtableid>
+    </None>
+    <None Include="Launch.rxrec">
+      <id>a662c205-79df-466a-8653-7115258d5dba</id>
+      <recordtableid>1b0de3fb-a9a9-4f59-9b54-350d7ac8e721</recordtableid>
+      <BoundTo>0b72a1ad-d48d-4266-9e4e-7c6863a4ec44</BoundTo>
+    </None>
+    <None Include="TestRepository.rximg">
+      <DependentUpon>TestRepository.rxrep</DependentUpon>
+      <id>070d6c8e-2018-4847-a7d4-5d65a6774b6d</id>
+      <BoundTo>0b72a1ad-d48d-4266-9e4e-7c6863a4ec44</BoundTo>
+      <imageblob>true</imageblob>
+    </None>
+    <None Include="TestRepository.rxrep">
+      <id>0b72a1ad-d48d-4266-9e4e-7c6863a4ec44</id>
+      <repoid>9621850e-688d-4dc9-8325-54f86a0f82e3</repoid>
+      <reporootid>602ac7b0-7f97-4c28-8689-98f79bde4dff</reporootid>
+    </None>
+    <Content Include="Test.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>6bb9aad3-fa05-4670-8906-cabc8c777a10</id>
+    </Content>
+    <Content Include="Test.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>276762cd-62f9-4174-bf3e-9e5c53fd9a29</id>
+    </Content>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <id>e45154e0-0be6-4b6b-bc1e-b2679641d19d</id>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

@@ -1,0 +1,28 @@
+C:\Users\kverbov\desktop\Test\Test\bin\Debug\Test.rxtmg
+C:\Users\kverbov\desktop\Test\Test\bin\Debug\Test.rxtst
+C:\Users\kverbov\desktop\Test\Test\bin\Debug\Test.exe.config
+C:\Users\kverbov\desktop\Test\Test\bin\Debug\Test.exe
+C:\Users\kverbov\desktop\Test\Test\bin\Debug\Test.pdb
+C:\Users\kverbov\desktop\Test\Test\obj\x86\Debug\Test.exe
+C:\Users\kverbov\desktop\Test\Test\obj\x86\Debug\Test.pdb
+C:\Users\kverbov\desktop\Test\Test\bin\Debug\RepositoryImages\TestRepository602ac7b0.rximgres
+C:\Users\kverbov\Desktop\Test\Test\obj\x86\Debug\Test.Resource1.resources
+C:\Users\kverbov\Desktop\Test\Test\obj\x86\Debug\Test.csproj.GenerateResource.Cache
+C:\Users\kverbov\Desktop\Test\Test\obj\x86\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Я\Desktop\Test\Test\bin\Debug\Test.rxtmg
+C:\Users\Я\Desktop\Test\Test\bin\Debug\Test.rxtst
+C:\Users\Я\Desktop\Test\Test\bin\Debug\RepositoryImages\TestRepository602ac7b0.rximgres
+C:\Users\Я\Desktop\Test\Test\bin\Debug\Test.exe.config
+C:\Users\Я\Desktop\Test\Test\bin\Debug\Test.exe
+C:\Users\Я\Desktop\Test\Test\bin\Debug\Test.pdb
+C:\Users\Я\Desktop\Test\Test\obj\x86\Debug\Test.csprojResolveAssemblyReference.cache
+C:\Users\Я\Desktop\Test\Test\obj\x86\Debug\Test.Resource1.resources
+C:\Users\Я\Desktop\Test\Test\obj\x86\Debug\Test.csproj.GenerateResource.Cache
+C:\Users\Я\Desktop\Test\Test\obj\x86\Debug\Test.exe
+C:\Users\Я\Desktop\Test\Test\obj\x86\Debug\Test.pdb
+D:\My Documents\Проекты\Test\Test\bin\Debug\Test.exe.config
+D:\My Documents\Проекты\Test\Test\obj\x86\Debug\Test.exe
+D:\My Documents\Проекты\Test\Test\obj\x86\Debug\Test.pdb
+D:\My Documents\Проекты\БК\Test\bin\Debug\Test.exe.config
+D:\My Documents\Проекты\БК\Test\obj\x86\Debug\Test.exe
+D:\My Documents\Проекты\БК\Test\obj\x86\Debug\Test.pdb

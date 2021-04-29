@@ -1,0 +1,16 @@
+﻿<testsuite
+name="Test"
+rxversion="5.2.1.20895"
+id="daa428fe-8ef2-4a07-a24f-bf1aacb08412">
+  <content>
+    <testcase name="TestCase" id="70538c62-ee76-44ac-83e3-d731622bc61b">
+      <testmodule name="Recording1" id="7b86305d-63b7-47ef-8e61-c2c40401017f" ref="75fb450c-6a5c-4ddf-84d8-edf8b15cae3c" type="Recording"/>
+    </testcase>
+  </content>
+  <testconfigurations default="TestRun">
+    <testconfiguration name="TestRun">
+      <testcase id="70538c62-ee76-44ac-83e3-d731622bc61b"/>
+    </testconfiguration>
+  </testconfigurations>
+  <references/>
+</testsuite>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.2.1.20895"
+id="99ffaff2-731f-4feb-bc46-ec66ab89ecd3"
+embeddedrepository="false"
+mode="Global">
+	<name>
+		Fight
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Fight"
+	namespace="Test"/>
+	<variables>
+		<var
+		name="doubleWeapon"
+		id="903120a8-8477-42b6-89f0-ec4378b59f7c">
+			true
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		duration="3766ms"
+		methodname="DoFight">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="16988e7b-7950-4be9-84d3-7556e09b972c">
+				<argument
+				argname="fightComplete"
+				id="93808b0b-aff6-4e9c-a8fc-dedab78a4199">
+					<argvaluetype>
+						<![CDATA[System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]>
+					</argvaluetype>
+					<argvalue>
+						<![CDATA[False]]>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	name="TestRepository"
+	id="9621850e-688d-4dc9-8325-54f86a0f82e3"
+	rxversion="5.2.1.20895"
+	relativepath="TestRepository.rxrep">
+		<codegen
+		classname="TestRepository"
+		namespace="Test"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="602ac7b0-7f97-4c28-8689-98f79bde4dff"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Fight.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

@@ -1,0 +1,912 @@
+﻿<repository
+name="TestRepository"
+id="9621850e-688d-4dc9-8325-54f86a0f82e3"
+rxversion="5.2.1.20895">
+	<codegen
+	classname="TestRepository"
+	namespace="Test"/>
+	<rootfolder
+	name="Root"
+	id="602ac7b0-7f97-4c28-8689-98f79bde4dff"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<folder
+		name="RemMasterskaya"
+		id="3903e764-ecb2-46c3-8a23-165deb17d53e"
+		searchtimeout="0ms"
+		capname="unknown"
+		isrooted="False">
+			<item
+			name="Центральная_площад"
+			id="dd4afb2c-abcc-48bd-9127-8756e5068186"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,atag"
+			refimgid="7cc2b7ba-831c-407a-ab02-633ea47abd51">
+				/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe//td[#'moveto']/table/?/?/tr/td[2]/a[@innertext='&#1062;&#1077;&#1085;&#1090;&#1088;&#1072;&#1083;&#1100;&#1085;&#1072;&#1103; &#1055;&#1083;&#1086;&#1097;&#1072;&#1076;&#1100;' and @visible='True']
+			</item>
+			<item
+			name="ATagДаЕстьНекоторыеПроблемы"
+			id="36f16f8f-1133-43b4-968b-d4577ab9e3f2"
+			searchtimeout="30000ms"
+			capname="atag"
+			addcaps="unknown,webelement,atag"
+			refimgid="40f2c021-71e1-42e3-926a-fa88c73fbf08">
+				/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/div/iframe/body/table//td[@enabled='True']/a[@innertext~'^\ &#1044;&#1072;,\ &#1077;&#1089;&#1090;&#1100;\ &#1085;&#1077;&#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077;\ &#1087;&#1088;&#1086;&#1073;&#1083;' and @visible='True']
+			</item>
+			<item
+			name="RepairWelcomeScreen"
+			id="5ec6dafb-859c-41a7-a4cd-5c6f43dbae93"
+			searchtimeout="30000ms"
+			capname="imgtag"
+			addcaps="unknown,webelement,imgtag"
+			refimgid="6b2ea0a0-9d36-46c4-83fe-797568fbefdb">
+				/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe//img[@width='146' and @visible='True']
+			</item>
+			<item
+			name="RepairListTBody"
+			id="d2e24831-f133-4ad5-ab86-4aa1c092be8d"
+			searchtimeout="30000ms"
+			capname="tbodytag"
+			addcaps="unknown,webelement,tbodytag"
+			refimgid="39e72347-a1df-43c8-862f-cf5326f93a70">
+				/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/table/?/?/tr/td[1]/table[2]/tbody/tr[2]/?/?/table/tbody[@visible='True']
+			</item>
+		</folder>
+		<folder
+		name="Rooms"
+		id="1d734573-8cfd-4bfe-bfa3-374daa948ea1"
+		searchtimeout="30000ms"
+		capname="table"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="Центральная_площадь_из_зала_воинов"
+			id="094d07b0-4c40-4192-908b-fc85f3b6429d"
+			searchtimeout="30000ms"
+			capname="imgtag"
+			addcaps="unknown,webelement,imgtag"
+			refimgid="a8e2979b-b104-4db5-bfe5-a1d7a4376bac">
+				/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe//img[@width='52' and @visible='True']
+			</item>
+			<item
+			name="Ремонтная_мастерская"
+			id="f6a36b58-33db-46ee-a9f7-cfd756dbc38a"
+			searchtimeout="30000ms"
+			capname="imgtag"
+			addcaps="unknown,webelement,imgtag"
+			refimgid="d684988e-cc28-4dfa-a9cc-a2bf743197b0">
+				/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe//img[@height='70' and @width='74' and @visible='True']
+			</item>
+			<item
+			name="Зал_воинов"
+			id="362bfd30-2a22-42e6-8e89-0782b8de848b"
+			searchtimeout="30000ms"
+			capname="imgtag"
+			addcaps="unknown,webelement,imgtag"
+			refimgid="cd52f210-e612-4054-87cd-54ace9406eb7">
+				/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe//div[#'ione']/img[12]
+			</item>
+			<basepath>
+				/dom[@domain='dreamscity.combats.com']/body/table
+			</basepath>
+		</folder>
+		<appfolder
+		name="БойцовскийКлуб"
+		id="76efaabf-338c-40d2-a385-03c65607181c"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[1]"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<folder
+			name="LoginForm"
+			id="dae9cd53-cd04-4b1d-bf46-ba27a012701b"
+			searchtimeout="30000ms"
+			capname="table"
+			refpath="/dom[1]//table[#'LoginForm']"
+			addcaps="unknown,webelement,tabletag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Login"
+				id="fc37571e-db02-47b3-95e3-3ad9d6b2edb5"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag">
+					/dom[1]//table[#'LoginForm']/tbody/tr[2]/?/?/input[@name='login']
+				</item>
+				<item
+				name="InputTagPsw"
+				id="9d0a462c-64eb-4073-9650-39564ddeb2a4"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="b6d35b71-2e2f-42f3-a8be-185328b4e695">
+					<image
+					name="Screenshot1"
+					guid="def66dd4-bb5f-4dfb-90dd-19dffad192cb">
+						iVBORw0KGgoAAAANSUhEUgAAAHIAAAARCAYAAAABvfiJAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAABbSURBVFhH7dGxDcAgDAVRlghzsQKKxBB0TG5C
+Cnbw6Sw96/dXnlpDeY3eYs03DJmcISEMCWFICENCGBLCkBCGhDAkhCEhDAlhSAhDQhgS4oY8Q7n9
+Ib87T6mV2Dq61uZj0z50AAAAAElFTkSuQmCC
+					</image>
+					/dom[1]//table[#'LoginForm']/tbody/tr[3]/?/?/table/?/?/tr/td[1]/input[@name='psw']
+				</item>
+				<item
+				name="Submit"
+				id="f2b2444a-784e-4901-afa7-90d03873324c"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="9491f3af-74ae-4441-87eb-ccf5b6cb921a">
+					<image
+					name="Screenshot1"
+					guid="2c05bd45-10de-42e1-bffe-3f326b55dff8">
+						iVBORw0KGgoAAAANSUhEUgAAADgAAAAQCAYAAABDebxFAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAD6SURBVEhL7ZS9DYMwEIU9RnZgFJosgOjSpGEG
+qBkB0TCBJRoWgJ4aZZQXH/gnEEQQcSAgioeM/E667+4Bc5wLjqj77QrGGE7AvWplQBdpmSGic5ih
+StwRj10tBvSTAo+mNipj+CO+oUydBP2xvgI0G6DN1MjDd9/WsghYIPXkvYif2a7ZVK+m9dBdgFx7
+pSgNXoxKp6LzLBmgvYg2CpCaGcDyQNd0gMIjBlK9xrQH1H+PuPAuTIilDQqphiYaVTXUcOrRIGYA
+yp9RxP8F8MMGadtdozMAKRmydhPA8YgKTXyDquF5gOZ+dcC96ATcuzQgHY6qFlA+DiqGJ4cUv4wG
+8uwqAAAAAElFTkSuQmCC
+					</image>
+					/dom[1]//table[#'LoginForm']/tbody/tr[4]/?/?/input[@type='submit']
+				</item>
+				<basepath>
+					/dom[1]//table[#'LoginForm']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[1]
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="БойцовскийКлуб1"
+		id="cf595729-476e-43fd-8ef9-522d32513e54"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='dreamscity.combats.com']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<folder
+			name="Menu"
+			id="a7d58619-d834-4d25-b902-620800997316"
+			searchtimeout="30000ms"
+			capname="table"
+			refpath="/dom[1]/body/table"
+			addcaps="unknown,webelement,tabletag"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="Меню"
+				id="a5162c0a-1371-4da5-8cbe-cde88203fc91"
+				searchtimeout="30000ms"
+				capname="spantag"
+				addcaps="unknown,webelement,atag"
+				refimgid="f62cdafb-3cfd-45e2-8ab9-ba765c26d469">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[1]//iframe//span[#'menu4']
+				</item>
+				<item
+				name="ATag1На1"
+				id="09c518b6-7d54-4ae1-abc8-d0f40b3df56d"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="d76e09ef-a586-41ed-9af5-b4cfc9658bdc">
+					<image
+					name="Screenshot1"
+					guid="10092a99-d705-4eca-b979-e338ecab5169">
+						iVBORw0KGgoAAAANSUhEUgAAAC8AAAAQCAYAAACGCybUAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAC7SURBVEhL7ZKxDcMgEEW9i0dgBG+Q3iPQeIZY
+ck3nuE1rufYO7PQDCgRwotNJiXVy5OIVwAc9PlSjtTgqp7wU/yK/or0MqNSAul+LkBy0k5Of0bhF
+H4jIy/OcsubTBo58p8PBeibmUnMF2R4a2mln+Xdihve64vLftL+3/Cei2HJHHebimdfelBkSweZf
+ompCFzKHkR9v03OsDNrFZ7Iv9Bv5FNhCXYIl70jtewwazWme55Q1fzxOeRksHjiAqK6JvjzWAAAA
+AElFTkSuQmCC
+					</image>
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@action='zayavka.pl']/table/tbody/tr[2]/td[2]/a[@innertext='1 &#1085;&#1072; 1']
+				</item>
+				<item
+				name="Open"
+				id="e57edca9-a8a9-4744-8e43-29e63fd8c359"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="657e6f0a-4e8f-48cf-b6c0-0a52c0fcd9e0">
+					<image
+					name="Screenshot1"
+					guid="3b336405-7fd0-410e-a680-17293c8c7f72">
+						iVBORw0KGgoAAAANSUhEUgAAAFYAAAAQCAYAAACMV4iGAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGESURBVFhH7VTBjcMgELw2UpHbieghHfjhFvKz
+/EwPllKCdRW4gz0Ws+yAiRNL8MiJx0TxsOwOw9g/67pSQzmM40i/y0LN2MJoxlbCCWOf1HdXulwS
+mEemtuGksQNNyM136pqxWZQzdho0xd2dZl8z97cMj+m/UT8n+x3sLMt1/VPn7fAgI/XhgoHjHjtO
++cnsOdZrJrvH6dk0xL2l5zEKGcsDvUGWZ3FiyGSEtzXeWFx3B4DU82HdwfzakbHaR7Xh/rAe9VFz
+VJvu24zlfqBbzEy0HqGcsZBSFYB7sIZ5SMuBsZoo4BGswa7Fxuke4dkw7aWXEDi4dH7GWXuz36Nu
+YvFTAcZiUtIUvEws98LLi2rl0LHGoCOsM89axdhYB9dmTXSzba9k/hEqfmPj5AhEfODMEKX9VGJ5
+vqyHS9P6zvZmfW4eXnAusT4Ym7FSJ+by2fGteI8Txp6FJjRwmMCvQpLgD1DR2P8C/+bB5+oTNGMr
+oRlbCcFY/tNQFs5Y/mkojYX+AN/q3BWWNYGTAAAAAElFTkSuQmCC
+					</image>
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/?/?/table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@name='F1']/table[2]//td[@innertext~'^&#1055;&#1086;&#1089;&#1083;&#1077;\ &#1087;&#1086;&#1076;&#1072;&#1095;&#1080;\ &#1079;&#1072;&#1103;&#1074;&#1082;&#1080;,\ &#1074;&#1072;&#1084;']/input[@name='open']
+				</item>
+				<item
+				name="Close"
+				id="2b71b097-c2b0-43a5-abf7-b8cf4a980fc4"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="3fa51bb1-c299-49a9-b292-b3ff424fe0f7">
+					<image
+					name="Screenshot1"
+					guid="76f579a9-425e-465d-9dbd-87eb04c9f71a">
+						iVBORw0KGgoAAAANSUhEUgAAAF8AAAAQCAYAAABwQqNMAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVFhH7VTBrYMwDO0anYh1quzQDTh0hd4Q
+x+6A1BFQJ2AD/zjEjh0SCl+oXHx4QJIX++XZ5DJNExh+i67r4DOOYOafADP/ROw2v3c3uF4Jd2iH
+Ms/wHbvMD8a7V5obntBYAf6NHea/wDVPGPL5/hEKov+IWKRQHJp7QB/3JO48N7T3OEakYsr5pn1n
+8Yhb0SWQ55umN7SNjJHzZri+og11hCb0uZHX+jFrwNjbGnK7+ZxwbR7F6APiAcJaLFLgR6F4MDog
+8fCbjeYDybiCQ2tr5lfy8X7SlcXBQqxq83tSHGG40r2OwzqfOcr8ZJgWFTtPmJK6S5tcm1fmM8eD
+tUjofDzO96BGEYvMZx5pIJ7M5X1ATVS0lLuOg+/83PxC54tikYn4Zh7GjDxt8Ir5ytTsly/k653g
+FNbxu9T5rC2+lzr8WOj8hl3mI/S9mN9t2iTuENk1quvm/XiIFDMWLNvrhGGLQ4u9qjm25HM+NhYv
+5EvapfnM9WBtMQ/yZMGW+evYbb6hDipYaa0EM/8QxL+Lr79tMPNPhJl/Ith8/DD8HsF8fBjOwAh/
+3PfKijs5GiEAAAAASUVORK5CYII=
+					</image>
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/?/?/table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@name='F1']/table[2]//td[@innertext~'^&#1041;&#1086;&#1081;\ &#1085;&#1072;&#1095;&#1085;&#1077;&#1090;&#1089;&#1103;\ &#1082;&#1072;&#1082;\ &#1090;&#1086;&#1083;&#1100;&#1082;&#1086;']/input[@name='close']
+				</item>
+				<item
+				name="Combats"
+				id="457795cb-7a03-4f27-a203-68148c9f9250"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="bd2b6e3b-c7f5-4da1-8581-fe73c232134a">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/div/iframe//table[#'draw_info']//td[@innertext~'^\ &#1057;&#1077;&#1081;&#1095;&#1072;&#1089;\ ']/form[@action='main.pl']/input[@type='button' and @value='&#1055;&#1086;&#1077;&#1076;&#1080;&#1085;&#1082;&#1080;']
+				</item>
+				<item
+				name="Обновить"
+				id="d6423a25-3190-494c-ba97-d38829b59135"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr[2]/td/tag[@tagname='nobr']/button[@title='Обновить' and @innertext='Обновить']"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="3d1e7a31-ad42-44af-8212-e1edcc9a0d9d">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/?/?/table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/?/?/table/tbody/tr[2]//button[@innertext='&#1054;&#1073;&#1085;&#1086;&#1074;&#1080;&#1090;&#1100;']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif"
+				id="ad2425b2-adf2-49ef-8380-dc8aa514cc71"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr[1]/td/table/tbody/tr[2]/td[1]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="f74d23c3-3066-44ea-9e14-62f82d406f5c">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[2]/td[1]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscTable"
+				id="ec922fbf-e8e4-44f6-a18f-873489ecc416"
+				searchtimeout="30000ms"
+				capname="tbodytag"
+				addcaps="unknown,webelement,imgtag">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif1"
+				id="09a2040d-d674-462a-9ad7-d43c432165f0"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr[1]/td/table/tbody/tr[3]/td[1]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="ced2b295-de76-4c80-b75c-f2bb44ab6681">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[3]/td[1]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif2"
+				id="a2fee5a3-ef2f-4f47-804e-dec884c0f202"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr[1]/td/table/tbody/tr[4]/td[1]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="bcdc7238-6f80-443f-8c92-ce50beb82f3d">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[4]/td[1]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif3"
+				id="83b816d6-a9f4-4192-aaec-3023e13a830e"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr[1]/td/table/tbody/tr[5]/td[1]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="aa0f4180-600f-4afb-bd66-e2cfc08fc86b">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[5]/td[1]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif4"
+				id="949113bb-2a68-457c-886d-b8beee4eec0c"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr[1]/td/table/tbody/tr[6]/td[1]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="76647f6a-f548-4d94-b7d0-8993425909f7">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[6]/td[1]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif5"
+				id="659586ad-b0ae-434f-9b78-b86afcaa400b"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr[1]/td/table/tbody/tr[2]/td[3]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="5e0b61c0-4a7a-4631-9e26-7a3fa2c0d3e0">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[2]/td[3]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif6"
+				id="989bf0b8-6b6e-48eb-aa7e-451eaa99632c"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr[1]/td/table/tbody/tr[3]/td[3]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="08c2a495-a5ea-4d47-881b-55a06d7813ea">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[3]/td[3]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif7"
+				id="282851d0-44db-4c5e-9190-adcbc2dd6f26"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr[1]/td/table/tbody/tr[4]/td[3]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="79508abc-a8d1-4465-a8f6-27b52fb0e982">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[4]/td[3]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif8"
+				id="50b940a1-d514-4905-b098-9ea991456e72"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr[1]/td/table/tbody/tr[5]/td[3]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="8a4e4c06-d5d0-4152-9048-4784450fa690">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[5]/td[3]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif9"
+				id="1e2401fd-7494-45f4-9c3a-6257a95d179b"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/td/table/tbody/tr[1]/td/table/tbody/tr[6]/td[3]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="435809be-025c-4a71-b6b8-1be961ff1e9b">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[6]/td[3]/button/div/img[@src='http://img.combats.ru/i/misc/radio.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscIconsHitS"
+				id="c7d45451-52ff-4a4f-9f5a-50c7167cd520"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[6]/td/button[1]/img[@src='http://img.combats.ru/i/misc/icons/hit_strong.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="dd663258-3992-409f-9fdb-263991468e3f">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[6]/td/button[1]/img[@src='http://img.combats.ru/i/misc/icons/hit_strong.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscIconsBlock"
+				id="da0e2f17-a2db-4980-81db-8802dd455ba9"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[6]/td/button[2]/img[@src='http://img.combats.ru/i/misc/icons/block_activeshield.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="19153c42-134b-49da-8188-2b80d5702199">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[6]/td/button[2]/img[@src='http://img.combats.ru/i/misc/icons/block_activeshield.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscIconsBlock1"
+				id="f7852e04-b950-41e4-ab28-6bf77168d448"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[6]/td/button[3]/img[@src='http://img.combats.ru/i/misc/icons/block_addchange.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="983df433-3c58-475d-8bb9-d114aa299f84">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[6]/td/button[3]/img[@src='http://img.combats.ru/i/misc/icons/block_addchange.gif']
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscIconsHpRe"
+				id="1eac6c1d-08ae-4063-abf9-2dd2e80fdbe3"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[6]/td/button[4]/img[@src='http://img.combats.ru/i/misc/icons/hp_regen.gif']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="b72fc1aa-471a-4418-b954-f873333076be">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[6]/td/button[4]/img[@src='http://img.combats.ru/i/misc/icons/hp_regen.gif']
+				</item>
+				<item
+				name="Вперёд"
+				id="0c0f9276-edee-44e0-8917-8003e270b4fb"
+				searchtimeout="30000ms"
+				capname="buttontag"
+				addcaps="unknown,webelement,buttontag"
+				refimgid="3dc63ec8-1445-46db-9aa9-789767b12033">
+					<image
+					name="Screenshot1"
+					guid="6791da0b-787a-4b95-b0d0-d6928cafe382">
+						iVBORw0KGgoAAAANSUhEUgAAADYAAAASCAYAAAAQeC39AAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFYSURBVFhH5ZTpkcMgDIUpi5Zoh1YohFaYbUDL
+45Rk43hn7Eni/fFiLh0fEjEpJXqSjDH0g+/e5jfrP4AFcnmChSlHQRm8XcGRsZ5imSNnSz7WveAM
+WR/LWIHNQ1D0ljm5Q4iJy4vkrYy91BVgKXqyn1Y15DTA5IWgEOcr5kKdF0jVqiLAet3m4GOv++v+
++7qKjdufe1k8j7+DKWe8Wrp6rCV4C/QANZEGPGBqDBek/Z5/+Czn8nhzwcMf/E8bnOs2Cky1Il9b
+gqlqDeFs3evBoJ5k+W5s+llpdwMYu7kXYDz5qX0wVFckuxFykQmLqjO74GRO58AKzKuKtffA2qok
+wqBnmyJGA4U9j8diaejjS9iXAlu1RtYBGObisY/1Bsb+PPhbrHDdrkGKNaliK+LKYvC3jvMNrAW7
+VEdtupC6sC6e9Bl9HthFuhnsfXo+GAZPUwHDz/OU6BeGdybXl+e7LwAAAABJRU5ErkJggg==
+					</image>
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/?/?/table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/?/?/table/tbody/tr[2]//button[@title='&#1042;&#1087;&#1077;&#1088;&#1105;&#1076;!!!']
+				</item>
+				<item
+				name="SpanTagДумалНеОТомИУшелВСторон"
+				id="62514f47-aa41-40a6-9764-156125799590"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[3]/td/div/div/table/tbody/tr/td[1]/div/div/div/div[6]/div/div[2]/span[@innertext~'^\ думал\ не\ о\ том\ и\ \ \ ушел\ ']"
+				addcaps="unknown,webelement,spantag"
+				refimgid="4d7b362a-f6aa-431c-9f6f-79a57e637560">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td//table/?/?/tr/td[2]//table/tbody/tr[3]//table/tbody/tr/td[1]/div/div/div/div[6]/div/div[2]/span[@innertext~'^\ &#1076;&#1091;&#1084;&#1072;&#1083;\ &#1085;&#1077;\ &#1086;\ &#1090;&#1086;&#1084;\ &#1080;\ \ \ &#1091;&#1096;&#1077;&#1083;\ ']
+				</item>
+				<item
+				name="SpanTagЗакашлялсяИЖестокийУвернулся"
+				id="37e58a6e-7c24-434d-8ea6-46446a9290ca"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[3]/td/div/div/table/tbody/tr/td[1]/div/div/div/div[6]/div/div[3]/span[@innertext~'^\ закашлялся\ и\ жестокий\ \ у']"
+				addcaps="unknown,webelement,spantag"
+				refimgid="9786b377-19b8-443e-b694-ae5c8a5c323a">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td//table/?/?/tr/td[2]//table/tbody/tr[3]//table/tbody/tr/td[1]/div/div/div/div[6]/div/div[3]/span[@innertext~'^\ &#1079;&#1072;&#1082;&#1072;&#1096;&#1083;&#1103;&#1083;&#1089;&#1103;\ &#1080;\ &#1078;&#1077;&#1089;&#1090;&#1086;&#1082;&#1080;&#1081;\ \ &#1091;']
+				</item>
+				<item
+				name="UserBattleSelect"
+				id="7473abbd-039a-43e1-a6c3-c5f41e02490f"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				refpath="/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/div/table/tbody/tr/td[2]/div/div/table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[4]/td"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="71e964ec-a49f-4f7e-8dc1-48dacc469d57">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/td
+				</item>
+				<item
+				name="OptionsRow"
+				id="52902cec-67c5-467b-8663-2d39bbf74f3f"
+				searchtimeout="30000ms"
+				capname="tdtag">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/div/table/tbody/tr[6]/td
+				</item>
+				<item
+				name="Combats1"
+				id="03fa0e51-9b94-44f6-9230-0229b082ed3d"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="d3c75e47-d5bd-4963-af36-cf3df0e81428">
+					<image
+					name="Screenshot1"
+					guid="fba888ca-b883-43f8-92b6-4711b54ba267">
+						iVBORw0KGgoAAAANSUhEUgAAAGYAAAASCAIAAAAmDjziAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFmSURBVFhH7ZSBTcNADEUZEAkGQeoQSLQzoG5A
+B6ADZIAywLEKr32VZYoUckmjBnTWb+v47J/4Kerd48N900Ct18+llIasQg1Zta6GrOu6z+/xcThc
+9PwPXRlZXMKrIftFPchWq6fTa3eMzeblZ5Hc4m73di6dYr9/pxjOjmi73b6S801OGzmnNjgVD0AF
+hxjxdIpmR5bXkIjUYhMXJrHBKRucCmc7behHRj37eCMqnlofrdmRiYllrPvQUCNx4ZxzlFd1PZ3F
+QdjQj4wRZ/Xh0n5PrY/W7MhiH+vkeYEIl+eIiE7Xo2KuZ0aWI5AZmuiDA1PhE0fjdPu3LIuRWCnW
+09n+sBWZDrSRBzIukW36GN40/Efr9v9lwfSCY0zpbPNAZNmKhOAu+UmmaHZkyAUMeSEXMCjmnhzU
+dXZwILLcSYUgWRyyiRKZXJQb5spC1JBVaynI/pAasmqdkfHTNFxHZHxaVEQpXz4hScMxLSp3AAAA
+AElFTkSuQmCC
+					</image>
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/div/iframe//table[#'draw_info']//td[@innertext~'^\ &#1057;&#1077;&#1081;&#1095;&#1072;&#1089;\ ']/form[@action='main.pl']/input[@type='button' and @value='&#1055;&#1086;&#1077;&#1076;&#1080;&#1085;&#1082;&#1080;']
+				</item>
+				<item
+				name="NewItem"
+				id="9bd9829e-a9f7-421a-9850-9498b451af81"
+				searchtimeout="30000ms"
+				capname="unknown">
+					/dom[@domain='dreamscity.combats.com']/body/table/element
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif10"
+				id="5312d691-683f-4236-b824-1470ee2a9012"
+				searchtimeout="30000ms"
+				capname="unknown"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="37f12db3-32cc-49c4-b54d-2b6d6313fbc4">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[2]/td[1]/button[1]/div/?
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif11"
+				id="bfc882a8-77b4-49dd-85da-0239ccb6567e"
+				searchtimeout="30000ms"
+				capname="unknown"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="14ec4a7c-eb93-4014-b20d-348a85b39d65">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[3]/td[1]/button[1]/div/?
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif12"
+				id="d172df2d-4a9f-45e0-b259-667986973ca7"
+				searchtimeout="30000ms"
+				capname="unknown"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="ee127d7c-60dc-4da8-848a-148701727661">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[4]/td[1]/button[1]/div/?
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif13"
+				id="dbe13e3a-71c8-40f8-b17e-6e9cf1eceab6"
+				searchtimeout="30000ms"
+				capname="unknown"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="ae82dafd-b182-490a-be81-7836bb587a6e">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[5]/td[1]/button[1]/div/?
+				</item>
+				<item
+				name="HttpImgCombatsRuIMiscRadioGif14"
+				id="14b4a295-6655-499d-8633-4e9f228ea377"
+				searchtimeout="30000ms"
+				capname="unknown"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="f6e0b2ba-878f-45b4-988c-abac1874cc39">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[3]/?/?/table/tbody/tr[4]/?/?/table/tbody/tr[1]/?/?/table/tbody/tr[6]/td[1]/button[1]/div/?
+				</item>
+				<item
+				name="Групповые"
+				id="95fe8cda-21e8-45d6-8b73-2805a8ce8b47"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="b980a4bc-d7a0-4f68-b853-0fac51431455">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@action='zayavka.pl']/table/tbody/tr[2]/td[4]/a[@innertext='&#1043;&#1088;&#1091;&#1087;&#1087;&#1086;&#1074;&#1099;&#1077;']
+				</item>
+				<item
+				name="OpenGroup"
+				id="4e5a78a9-2194-4d82-827a-a6842d2f7622"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="56a7f084-f8d4-45c7-9358-541d446bebc7">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@name='F1']/table[2]/?/?/tr/td[1]/input[@name='open']
+				</item>
+				<item
+				name="Timeout"
+				id="a575f15c-9ad5-4ed8-ae78-aa1228d68cb6"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="e093f892-cc7c-4039-8157-264136cb93b4">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@name='F1']/table[2]/?/?/tr/td[1]/table/tbody/tr[1]/td/select[@name='timeout']
+				</item>
+				<item
+				name="Nlogin1"
+				id="188fbbad-6261-44b7-b123-8f854203b8fb"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="1fce6172-2fc2-4426-b086-b59811615291">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@name='F1']/table[2]/?/?/tr/td[1]/table/tbody/tr[1]/td/input[@name='nlogin1']
+				</item>
+				<item
+				name="Nlogin2"
+				id="65754a96-3659-4865-ab44-a0219bb1bbca"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="a329ed98-1a14-403a-aa05-727391555b9e">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@name='F1']/table[2]/?/?/tr/td[1]/table/tbody/tr[1]/td/input[@name='nlogin2']
+				</item>
+				<item
+				name="Levellogin2"
+				id="66803970-d71b-470b-9a45-521e00d5e6ca"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="3c5b4700-9e59-49ec-86c5-3a5c1c12eb3f">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@name='F1']/table[2]/?/?/tr/td[1]/table/tbody/tr[1]/td/select[@name='levellogin2']
+				</item>
+				<item
+				name="Open1"
+				id="1dc34094-f1b6-4fa6-890c-ec549f8286b2"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="e75783a7-772a-459b-9009-ed5b8a3770df">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@name='F1']/table[2]/?/?/tr/td[1]/table/tbody/tr[2]/?/?/input[@name='open']
+				</item>
+				<item
+				name="Levellogin1"
+				id="2812a0c5-1434-4cd4-94ab-c5ebca793ede"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="6ab50d69-9302-45be-bd51-dd8aed4cd01d">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@name='F1']/table[2]/?/?/tr/td[1]/table/tbody/tr[1]/td/select[@name='levellogin1']
+				</item>
+				<item
+				name="ПрочныйКлинокВластногоЗлодеяF2Уд"
+				id="ccc9be70-9cf5-4910-be71-962c2efde60d"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="a66fd4af-4c27-4c52-a159-c7386dee514c">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe//table[#'draw_info']/?/?/tr/td[1]/table/tbody/tr[2]/td[1]/table//td/table[1]/?/?/tr/td[1]/table/tbody/tr[3]/?/?/img[@title~'^&#1055;&#1088;&#1086;&#1095;&#1085;&#1099;&#1081;\ &#1082;&#1083;&#1080;&#1085;&#1086;&#1082;\ &#1074;&#1083;&#1072;&#1089;&#1090;&#1085;&#1086;&#1075;&#1086;\ ']
+				</item>
+				<item
+				name="WeaponTbodyLeft"
+				id="f3f2ef0d-0170-4c6a-b7d2-e10b11858ce4"
+				searchtimeout="30000ms"
+				capname="tbodytag"
+				addcaps="unknown,webelement,imgtag">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe//table[#'draw_info']/?/?/tr/td[1]/table/tbody/tr[2]/td[1]/table//td/table[1]/?/?/tr/td[1]/table/tbody
+				</item>
+				<item
+				name="WeaponTbodyRight"
+				id="7f9841f7-d8a1-483c-bfdc-591693cba791"
+				searchtimeout="30000ms"
+				capname="tbodytag"
+				addcaps="unknown,webelement,imgtag">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe//table[#'draw_info']/?/?/tr/td[1]/table/tbody/tr[2]/td[1]/table//td/table[1]/?/?/tr/td[3]/table/tbody
+				</item>
+				<item
+				name="InventoryWeaponTbodyLeft"
+				id="ecb02b27-5993-4b4b-a7d1-c789ec90f37d"
+				searchtimeout="30000ms"
+				capname="tbodytag"
+				addcaps="unknown,webelement,imgtag">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/?/?/table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/div/iframe[@name='main449108211']//table[#'draw_info']/?/?/tr/td[1]/table/tbody
+				</item>
+				<item
+				name="InventoryWeaponTbodyRight"
+				id="890e62c6-3cba-40cd-9501-9ea275514483"
+				searchtimeout="30000ms"
+				capname="tbodytag"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="70f21c25-a3b3-4edf-ae43-093e943455da">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]/td/div/?/?/table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/div/iframe//table[#'draw_info']/?/?/tr/td[3]/table/tbody
+				</item>
+				<item
+				name="Snatvso"
+				id="44abe007-1dc2-4c16-891a-339d8c294d93"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="524e0736-21f7-49f9-847c-1097ac26e3ed">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@name='F1']/table/?/?/tr/td[1]/table/tbody/tr[2]/td[3]/small/input[@name='snatvso']
+				</item>
+				<item
+				name="КулачныйCheckButton"
+				id="f4aa2a7e-0558-44e7-a833-4e26da3072d2"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="571f462d-008e-4b69-8f92-bddef6446a5e">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@name='F1']/table[2]/?/?/tr/td[1]/table/tbody/tr[1]/td/input[@name='k']
+				</item>
+				<item
+				name="НадетьМойКомплект"
+				id="1a9467f5-b929-4918-8231-1b38edfd06f7"
+				searchtimeout="30000ms"
+				capname="atag"
+				addcaps="unknown,webelement,atag"
+				refimgid="f766d200-6bc9-4ba3-b3a7-bdc9fcb9ee60">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/form[@name='F1']/table/?/?/tr/td[1]/table/tbody/tr[2]/td[3]/small/a[@innertext='&#1053;&#1072;&#1076;&#1077;&#1090;&#1100; &quot;&#1052;&#1086;&#1081; &#1082;&#1086;&#1084;&#1087;&#1083;&#1077;&#1082;&#1090;&quot;']
+				</item>
+				<item
+				name="Вернуться"
+				id="c90216c5-65e1-40f7-ad78-d64702ef3de3"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="3a24a023-88c8-4945-b5a4-4d6c4c0573eb">
+					/dom[@domain='dreamscity.combats.com']/body/table/tbody/tr[2]//table/?/?/tr/td[2]//table/tbody/tr[1]/td/div/div/div/div[2]/?/?/iframe/body/?/table/tbody/tr[1]/?/?/input[@value='&#1042;&#1077;&#1088;&#1085;&#1091;&#1090;&#1100;&#1089;&#1103;']
+				</item>
+				<basepath>
+					/dom[@domain='dreamscity.combats.com']/body/table
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='dreamscity.combats.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="БойцовскийКлубInternetExplorer"
+		id="4f579939-c323-452a-bfa6-38530a5f0e8d"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Бойцовский клуб - Internet Explorer']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ClientCaption"
+			id="c410f5a5-2bac-4a92-b634-8f61541cfd01"
+			searchtimeout="30000ms"
+			capname="unknown"
+			refpath="/form[@title~'^Бойцовский\ клуб\ -\ Interne']/element[@class='Client Caption']"
+			addcaps="unknown,nativewindow"
+			refimgid="9546dfa2-ebd9-4ce2-97c4-75180ace8d89">
+				/form[@title~'^&#1041;&#1086;&#1081;&#1094;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081;\ &#1082;&#1083;&#1091;&#1073;\ -\ Interne']/element[@class='Client Caption']
+			</item>
+			<item
+			name="РядВкладок"
+			id="3c04c64b-152e-485c-aa75-96bf76e46876"
+			searchtimeout="30000ms"
+			capname="tabpagelist"
+			refpath="/form[@title~'^Бойцовский\ клуб\ -\ Interne' and @processname='iexplore' and @class='IEFrame' and @instance='1']/element[@class='WorkerW']/container/container/container/tabpagelist[@accessiblename='Ряд вкладок']"
+			addcaps="tabpagelist,accessible"
+			refimgid="c3c84e65-c596-4d76-a629-39bb0dde2949">
+				/form[@title~'^&#1041;&#1086;&#1081;&#1094;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081;\ &#1082;&#1083;&#1091;&#1073;\ -\ Interne']/element[@class='WorkerW']/?/?/container[@class='TabBandClass']/?/?/tabpagelist[@accessiblename='&#1056;&#1103;&#1076; &#1074;&#1082;&#1083;&#1072;&#1076;&#1086;&#1082;']
+			</item>
+			<item
+			name="Container40966"
+			id="ca20227a-4093-4f82-9a85-f8fcff72d9be"
+			searchtimeout="30000ms"
+			capname="container"
+			refpath="/form[@title~'^Бойцовский\ клуб\ -\ Interne']/element[@class='WorkerW']/container[@controlid='40966']"
+			addcaps="container,nativewindow"
+			refimgid="005098ae-14e6-41d4-939b-2039fc8088ba">
+				/form[@title~'^&#1041;&#1086;&#1081;&#1094;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081;\ &#1082;&#1083;&#1091;&#1073;\ -\ Interne']/?/?/container[@controlid='40966']
+			</item>
+			<item
+			name="Свернуть"
+			id="ba23a705-48b6-4fc1-bbb6-0a7cae1fb1c5"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^Бойцовский\ клуб\ -\ Interne']/titlebar/button[@accessiblename='Свернуть']"
+			addcaps="button,accessible"
+			refimgid="faf4dda0-cf23-4dd4-abbb-c04d601bfaf3">
+				/form[@title~'^&#1041;&#1086;&#1081;&#1094;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081;\ &#1082;&#1083;&#1091;&#1073;\ -\ Interne']/?/?/button[@accessiblename='&#1057;&#1074;&#1077;&#1088;&#1085;&#1091;&#1090;&#1100;']
+			</item>
+			<basepath>
+				/form[@title~'^&#1041;&#1086;&#1081;&#1094;&#1086;&#1074;&#1089;&#1082;&#1080;&#1081;\ &#1082;&#1083;&#1091;&#1073;\ -\ Interne']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="БойцовскийКлуб2"
+		id="03b8801d-d154-4238-9d76-5877881b5c39"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='www.combats.com']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<item
+			name="InputTagPsw"
+			id="7f0ada6c-4397-485b-93f2-8cbaf73ad7bf"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='www.combats.com']//table[#'LoginForm']/tbody/tr[2]/td/table/tbody/tr/td[1]/input[@name='psw']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="cc2b8809-6e6f-4f6f-b1ac-0b0a7d6bda35">
+				/dom[@domain='www.combats.com']//table[#'LoginForm']/tbody/tr[2]/?/?/table//input[@name='psw']
+			</item>
+			<item
+			name="Submit"
+			id="56c01bf8-4abd-4940-9e46-7b537b5cb3c4"
+			searchtimeout="30000ms"
+			capname="inputtag"
+			refpath="/dom[@domain='www.combats.com']//table[#'LoginForm']/tbody/tr[3]/td/input[@type='submit']"
+			addcaps="unknown,webelement,inputtag"
+			refimgid="bd0f17d5-87bb-48ed-8542-1c12e395ae3d">
+				/dom[@domain='www.combats.com']//table[#'LoginForm']/tbody/tr[3]/?/?/input[@type='submit']
+			</item>
+			<basepath>
+				/dom[@domain='www.combats.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="HttpWwwCombatsComInternetExplo"
+		id="7beca75d-292b-40f2-829e-5a630f7c6b8d"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='http://www.combats.com/ - Internet Explorer']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="ЗакрытьВкладкуCTRLPlusW"
+			id="4f44cf4d-4e56-44ae-b427-6a718ec477c4"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^http://www\.combats\.com/\ -']/element[@class='WorkerW']/container/container/container/tabpagelist/tabpage/button[@accessiblename='Закрыть вкладку (CTRL+W)']"
+			addcaps="button,accessible"
+			refimgid="06cd9ef6-15fc-4e7a-a263-67b2b96438fa">
+				/form[@title~'^http://www\.combats\.com/\ -']//container[@class='TabBandClass']/?/?/tabpagelist[@accessiblename='&#1056;&#1103;&#1076; &#1074;&#1082;&#1083;&#1072;&#1076;&#1086;&#1082;']/tabpage[@accessiblename='&#1054;&#1078;&#1080;&#1076;&#1072;&#1085;&#1080;&#1077; combats.com']/button[@accessiblename='&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100; &#1074;&#1082;&#1083;&#1072;&#1076;&#1082;&#1091; (CTRL+W)']
+			</item>
+			<basepath>
+				/form[@title~'^http://www\.combats\.com/\ -']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables/>
+</repository>

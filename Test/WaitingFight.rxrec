@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.2.1.20895"
+id="4df3e78b-e74b-4520-93d2-cc3b3b8c8b0d"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		WaitingFight
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="WaitingFight"
+	namespace="Test"/>
+	<variables/>
+	<recorditems>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Validate_Вперёд">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="a3323c0d-c281-4058-9f70-e5ba06d029a7"/>
+		</userrecorditem>
+		<userrecorditem
+		enabled="True"
+		optional="False"
+		methodname="Wait">
+			<comment/>
+			<bindings/>
+			<arguments
+			id="b7600209-a9f2-4a0a-9049-010391682f43">
+				<argument
+				argname="min"
+				id="d64fd52f-043e-4a00-975b-6968b4308a14">
+					<argvaluetype>
+						<![CDATA[Ranorex.Duration, Ranorex.Core, Version=5.2.1.20895, Culture=neutral, PublicKeyToken=b798506b574ebc9a]]>
+					</argvaluetype>
+					<argvalue>
+						<![CDATA[10000ms]]>
+					</argvalue>
+				</argument>
+				<argument
+				argname="max"
+				id="0dabb125-00c5-4aaf-a0ce-b620619c608e">
+					<argvaluetype>
+						<![CDATA[Ranorex.Duration, Ranorex.Core, Version=5.2.1.20895, Culture=neutral, PublicKeyToken=b798506b574ebc9a]]>
+					</argvaluetype>
+					<argvalue>
+						<![CDATA[30000ms]]>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<keysequenceitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="bad37040-d9f2-4e7d-b7aa-8e760c806fea"
+		sequence="{F5}"
+		presstime="100ms">
+			<comment/>
+			<bindings/>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	name="TestRepository"
+	id="9621850e-688d-4dc9-8325-54f86a0f82e3"
+	rxversion="5.2.1.20895"
+	relativepath="TestRepository.rxrep">
+		<codegen
+		classname="TestRepository"
+		namespace="Test"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="602ac7b0-7f97-4c28-8689-98f79bde4dff"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		WaitingFight.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>
